@@ -53,10 +53,16 @@ Kekurangan:
 
 •	Hasil proses tidak selalu tersedia secara langsung.
 
-4.3 Perbedaan kedua pola
-
 •	Membutuhkan mekanisme pemantauan dan penanganan event yang gagal.
 
 Penerapan pada layanan:
 
 Ketika mahasiswa mengunggah tugas, sistem menyimpan dokumen terlebih dahulu. Selanjutnya sistem mengirim event TugasDikumpulkan ke message queue. Layanan pemeriksaan kemiripan mengambil event tersebut dan memproses dokumen tanpa menghambat mahasiswa yang sedang mengumpulkan tugas.
+
+4.3 Perbedaan kedua pola
+|  Aspek | Layered Architecture | Event-Driven Architecture |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- || :--- | :--- |
+| Fokus | Pembagian tanggung jawab sistem | Komunikasi berdasarkan peristiwa |
+| Tujuan | Membuat struktur sistem terorganisasi | Memisahkan proses dan mengurangi ketergantungan langsung |
+| Penerapan | Antarmuka, logika bisnis, akses data, database | Pengumpulan tugas, antrean, pemeriksaan kemiripan, notifikasi |
+| Masalah yang Dibantu | Kompleksitas struktur aplikasi | Lonjakan proses dan pekerjaan yang membutuhkan waktu lama |
