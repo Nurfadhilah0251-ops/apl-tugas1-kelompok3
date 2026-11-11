@@ -23,3 +23,10 @@ Kekurangan:
 •	Komunikasi harus melewati lapisan tertentu sehingga dapat menambah waktu pemrosesan.
 
 •	Perubahan pada lapisan tertentu dapat memengaruhi lapisan lainnya jika ketergantungannya terlalu kuat.
+
+Penerapan pada layanan:
+
+1.	Presentation Layer: tampilan dosen dan mahasiswa.
+2.	Business Logic Layer: proses pembuatan tugas, pengumpulan, tenggat, dan pemeriksaan hak akses.
+3.	Data Access Layer: pengelolaan komunikasi dengan database.
+4.	Database Layer: penyimpanan data pengguna, tugas, tenggat, dan hasil pengumpulan.
