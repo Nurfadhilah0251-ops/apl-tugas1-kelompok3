@@ -30,3 +30,10 @@ Penerapan pada layanan:
 2.	Business Logic Layer: proses pembuatan tugas, pengumpulan, tenggat, dan pemeriksaan hak akses.
 3.	Data Access Layer: pengelolaan komunikasi dengan database.
 4.	Database Layer: penyimpanan data pengguna, tugas, tenggat, dan hasil pengumpulan.
+
+4.2 Pola Event-Driven Architecture
+
+<img width="693" height="459" alt="image" src="https://github.com/user-attachments/assets/0804f4f1-2e38-4d0b-a588-643151202832" />
+
+Alasan pemilihan:
+Pola Event-Driven Architecture menggunakan peristiwa (event) untuk menghubungkan proses dalam sistem. Ketika mahasiswa berhasil mengumpulkan tugas, sistem menghasilkan peristiwa bahwa tugas telah dikumpulkan. Peristiwa tersebut dapat digunakan untuk memulai proses pemeriksaan kemiripan dan mengirim notifikasi.
