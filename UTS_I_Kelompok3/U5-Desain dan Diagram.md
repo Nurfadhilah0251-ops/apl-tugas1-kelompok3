@@ -9,13 +9,9 @@ Diagram konteks menunjukkan hubungan antara sistem dengan pihak-pihak yang berin
 <img width="827" height="364" alt="image" src="https://github.com/user-attachments/assets/c45bdf87-cf64-439f-9c63-18003f49d141" />
 
 Penjelasan:
-
 1.	Mahasiswa menggunakan sistem untuk melihat dan mengumpulkan tugas.
-
 2.	Dosen menggunakan sistem untuk memberikan tugas dan memeriksa hasilnya.
-
 3.	Admin SPADA mengelola akun dan hak akses pengguna.
-
 4.	Tim pengelola TI melakukan pemantauan dan pemeliharaan layanan.
 
 5.2 Diagram arsitektur yang menerapkan pola
@@ -33,3 +29,7 @@ Penjelasan:
 6.	Data Layer menyimpan informasi tugas, pengguna, hasil pengumpulan, dan dokumen.
 
 Dengan rancangan tersebut, proses pemeriksaan kemiripan tidak harus menunggu proses pengumpulan selesai untuk memberikan konfirmasi kepada mahasiswa.
+
+5.3 Diagram UML (Sequence Diagram)
+
+Diagram UML berikut menggunakan Sequence Diagram untuk menunjukkan urutan interaksi ketika mahasiswa mengumpulkan tugas hingga hasil pemeriksaan kemiripan tersedia.
