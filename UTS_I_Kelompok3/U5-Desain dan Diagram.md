@@ -38,4 +38,6 @@ Diagram UML berikut menggunakan Sequence Diagram untuk menunjukkan urutan intera
 <img width="827" height="428" alt="image" src="https://github.com/user-attachments/assets/154adabc-ff83-45f9-9c87-e66e8f45a55f" />
 
 Penjelasan:
-Diagram tersebut menjelaskan proses dari mahasiswa mengunggah dokumen sampai dosen melihat hasil pemeriksaan. Sistem memeriksa tenggat terlebih dahulu. Jika pengumpulan diterima, dokumen disimpan dan data pengumpulan dicatat. Setelah itu, permintaan pemeriksaan kemiripan dikirim ke antrean agar dapat diproses secara terpisah.
+
+Diagram tersebut menjelaskan proses dari mahasiswa mengunggah dokumen sampai dosen melihat hasil pemeriksaan. Sistem memeriksa tenggat terlebih dahulu. Jika pengumpulan diterima, dokumen disimpan dan data pengumpulan dicatat.
+Setelah itu, permintaan pemeriksaan kemiripan dikirim ke antrean agar dapat diproses secara terpisah.
