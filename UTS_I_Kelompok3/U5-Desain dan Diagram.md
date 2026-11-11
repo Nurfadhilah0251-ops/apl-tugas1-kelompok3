@@ -4,6 +4,7 @@ Bagian ini terdiri dari tiga diagram: diagram konteks, diagram arsitektur yang m
 Ketiganya menggambarkan rancangan konseptual layanan tugas SPADA UMI-Kalam.
 
 5.1 Diagram konteks
+
 Diagram konteks menunjukkan hubungan antara sistem dengan pihak-pihak yang berinteraksi dengannya.
 
 <img width="827" height="364" alt="image" src="https://github.com/user-attachments/assets/c45bdf87-cf64-439f-9c63-18003f49d141" />
@@ -33,3 +34,8 @@ Dengan rancangan tersebut, proses pemeriksaan kemiripan tidak harus menunggu pro
 5.3 Diagram UML (Sequence Diagram)
 
 Diagram UML berikut menggunakan Sequence Diagram untuk menunjukkan urutan interaksi ketika mahasiswa mengumpulkan tugas hingga hasil pemeriksaan kemiripan tersedia.
+
+<img width="827" height="428" alt="image" src="https://github.com/user-attachments/assets/154adabc-ff83-45f9-9c87-e66e8f45a55f" />
+
+Penjelasan:
+Diagram tersebut menjelaskan proses dari mahasiswa mengunggah dokumen sampai dosen melihat hasil pemeriksaan. Sistem memeriksa tenggat terlebih dahulu. Jika pengumpulan diterima, dokumen disimpan dan data pengumpulan dicatat. Setelah itu, permintaan pemeriksaan kemiripan dikirim ke antrean agar dapat diproses secara terpisah.
