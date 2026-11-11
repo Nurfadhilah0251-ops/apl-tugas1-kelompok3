@@ -54,3 +54,7 @@ Kekurangan:
 •	Hasil proses tidak selalu tersedia secara langsung.
 
 •	Membutuhkan mekanisme pemantauan dan penanganan event yang gagal.
+
+Penerapan pada layanan:
+
+Ketika mahasiswa mengunggah tugas, sistem menyimpan dokumen terlebih dahulu. Selanjutnya sistem mengirim event TugasDikumpulkan ke message queue. Layanan pemeriksaan kemiripan mengambil event tersebut dan memproses dokumen tanpa menghambat mahasiswa yang sedang mengumpulkan tugas.
