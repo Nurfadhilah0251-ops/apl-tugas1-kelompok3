@@ -53,6 +53,8 @@ Kekurangan:
 
 •	Hasil proses tidak selalu tersedia secara langsung.
 
+4.3 Perbedaan kedua pola
+
 •	Membutuhkan mekanisme pemantauan dan penanganan event yang gagal.
 
 Penerapan pada layanan:
