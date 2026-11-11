@@ -61,7 +61,7 @@ Ketika mahasiswa mengunggah tugas, sistem menyimpan dokumen terlebih dahulu. Sel
 
 4.3 Perbedaan kedua pola
 |  Aspek | Layered Architecture | Event-Driven Architecture |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- || :--- | :--- |
+| :------| :--------------------| :-------------------------|
 | Fokus | Pembagian tanggung jawab sistem | Komunikasi berdasarkan peristiwa |
 | Tujuan | Membuat struktur sistem terorganisasi | Memisahkan proses dan mengurangi ketergantungan langsung |
 | Penerapan | Antarmuka, logika bisnis, akses data, database | Pengumpulan tugas, antrean, pemeriksaan kemiripan, notifikasi |
