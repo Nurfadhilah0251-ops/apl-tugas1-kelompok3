@@ -36,4 +36,21 @@ Penerapan pada layanan:
 <img width="693" height="459" alt="image" src="https://github.com/user-attachments/assets/0804f4f1-2e38-4d0b-a588-643151202832" />
 
 Alasan pemilihan:
+
 Pola Event-Driven Architecture menggunakan peristiwa (event) untuk menghubungkan proses dalam sistem. Ketika mahasiswa berhasil mengumpulkan tugas, sistem menghasilkan peristiwa bahwa tugas telah dikumpulkan. Peristiwa tersebut dapat digunakan untuk memulai proses pemeriksaan kemiripan dan mengirim notifikasi.
+
+Kelebihan:
+
+•	Proses yang membutuhkan waktu lama dapat dijalankan secara terpisah.
+
+•	Mengurangi ketergantungan langsung antar layanan.
+
+•	Membantu menangani lonjakan permintaan melalui antrean.
+
+Kekurangan:
+
+•	Pengelolaan alur proses menjadi lebih kompleks.
+
+•	Hasil proses tidak selalu tersedia secara langsung.
+
+•	Membutuhkan mekanisme pemantauan dan penanganan event yang gagal.
