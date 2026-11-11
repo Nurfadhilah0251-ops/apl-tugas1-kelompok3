@@ -12,9 +12,9 @@ Selain itu, pencatatan tenggat waktu (deadline) dan rekapitulasi pengumpulan tug
 
 Beberapa temuan tersebut diperoleh dari pengalaman pengguna serta wawancara dengan responden di lingkungan FIKOM UMI sebagai berikut:
 * **Bukti Lapangan (Berdasarkan Wawancara Responden):**
-  **R1 (Mahasiswa FIKOM UMI):** "Pernah pas mau kumpul laporan praktikum jam 10 malam, mutar terus halamannya sampai 15 menit, pas ditekan submit malah error 'Gateway Timeout', padahal file saya cuma 8 MB."
-  **R2 (Mahasiswa FIKOM UMI):** "Seringkali notifikasi tugas masuk telat atau tidak muncul, jadi kami tidak tahu persis kalau ada perubahan deadline mendadak dari dosen."
-  **R3 (Dosen Pengampu di FIKOM UMI):** "Ketika memeriksa tugas masuk secara bersamaan setelah deadline, sistem terasa berat saat memuat dokumen mahasiswa dalam jumlah banyak, ditambah proses cek plagiat yang sering membuat antrean sistem lama."
+* **R1 (Mahasiswa FIKOM UMI):** "Pernah pas mau kumpul laporan praktikum jam 10 malam, mutar terus halamannya sampai 15 menit, pas ditekan submit malah error 'Gateway Timeout', padahal file saya cuma 8 MB."
+* **R2 (Mahasiswa FIKOM UMI):** "Seringkali notifikasi tugas masuk telat atau tidak muncul, jadi kami tidak tahu persis kalau ada perubahan deadline mendadak dari dosen."
+* **R3 (Dosen Pengampu di FIKOM UMI):** "Ketika memeriksa tugas masuk secara bersamaan setelah deadline, sistem terasa berat saat memuat dokumen mahasiswa dalam jumlah banyak, ditambah proses cek plagiat yang sering membuat antrean sistem lama."
 
 ## 1.3 Stekholder Utama
 
